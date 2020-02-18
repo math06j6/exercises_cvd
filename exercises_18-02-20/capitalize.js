@@ -1,12 +1,16 @@
 "use strict";
 
-window.addEventListener("DOMContentLoaded", start);
+let capitalize = function(str) {
+  str = str.toLowerCase().split(" ");
+  for (var i = 0; i < str.length; i++) {
+    str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
+  }
+  return str.join(" ");
+};
 
-// A message to the user
-const start = prompt("Hi, what is your name?");
+let str = "test my name.";
 
-console.log(capitalize(name));
+const title = capitalize(str);
+console.log(title);
 
-function capitalize(str) {
-  return str.substring(0, 1).toUpperCase() + str.substring(1).toLowerCase();
-}
+let str = "test me name";
