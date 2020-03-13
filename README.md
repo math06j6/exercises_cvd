@@ -1,1 +1,1 @@
-# exercises_cvd
+# exercises_frontend_design
