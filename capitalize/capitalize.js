@@ -12,5 +12,3 @@ let str = "test my name.";
 
 const title = capitalize(str);
 console.log(title);
-
-let str = "test me name";
