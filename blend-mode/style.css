@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  background: var(--backgroundColor);
+  color: var(--baseColor);
+  font-family: "Fira Code", monospace;
+}
+
+section {
+  width: 100%;
+  padding: 2rem;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  height: 100%;
+  color: var(--baseColor);
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.gryffindor {
+  background: blue;
+  margin: 2rem;
+}
+
+.gryffindor img {
+  mix-blend-mode: difference;
+  background: red;
+}
+
+.hufflepuff {
+  background: yellow;
+  margin: 2rem;
+}
+
+.hufflepuff img {
+  mix-blend-mode: multiply;
+}
+
+.slytherin {
+  background: linear-gradient(to right, #000 0%, transparent 50%, #fff 100%), linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);
+  margin: 2rem;
+}
+
+.slytherin img {
+  mix-blend-mode: luminosity;
+}
+
+.ravenclaw {
+  background: red;
+  margin: 2rem;
+}
+
+.ravenclaw img {
+  background: linear-gradient(purple 0%, red 90%), linear-gradient(to right, purple 0%, yellow 90%);
+  mix-blend-mode: difference;
+}
