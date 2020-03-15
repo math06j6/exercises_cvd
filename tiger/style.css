@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+svg {
+  margin: 10vh 25vw;
+}
+
+.poly {
+  stroke: orange;
+}
+
+ellipse {
+  stroke: purple;
+  fill: lightblue;
+  stroke-width: "5";
+}
+
+circle {
+  stroke: red;
+}
+
+rect {
+  stroke: red;
+}
+
+rect {
+  stroke: red;
+}
